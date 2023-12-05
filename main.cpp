@@ -176,8 +176,6 @@ void get_first_and_last_numbers(std::string input_string, int &first_number, int
         i++;
     }
 
-    //i++;
-
     // get the last number
     while (i < input_string.length()) {
         int temp_last_val = parse_string_from_pos(input_string, i);
