@@ -204,9 +204,7 @@ int main(int argc, char **argv) {
 
     int final_val = 0;
 
-    while (myfile) {
-        myfile >> mystring;
-
+    while (std::getline(myfile, mystring)) {
         int first_val = -1;
         int last_val = -1;
 
