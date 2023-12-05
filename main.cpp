@@ -4,7 +4,8 @@
 
 bool is_num(char c) {
     bool val = false;
-    val = (c == '0' || c == '1' || c == '2' || c == '3' || c == '4' || c == '5' || c == '6' || c == '7' || c == '8' || c == '9');
+    //val = (c == '0' || c == '1' || c == '2' || c == '3' || c == '4' || c == '5' || c == '6' || c == '7' || c == '8' || c == '9');
+    val = ('0' <= c && c <= '9');
     return val;
 }
 
@@ -214,11 +215,7 @@ int main(int argc, char **argv) {
             last_val = first_val;
         }
 
-        std::cout << "In " << mystring << ", first_val = " << first_val << " and last_val = " << last_val << ". Running total: "  << final_val << " + ";
-
         final_val += first_val*10 + last_val;
-
-        std::cout << (first_val*10 + last_val) << " = " << final_val << '\n';
     }
 
     std::cout << "Final added value is " << final_val << '\n';
