@@ -3,10 +3,7 @@
 #include <string>
 
 bool is_num(char c) {
-    bool val = false;
-    //val = (c == '0' || c == '1' || c == '2' || c == '3' || c == '4' || c == '5' || c == '6' || c == '7' || c == '8' || c == '9');
-    val = ('0' <= c && c <= '9');
-    return val;
+    return ('0' <= c && c <= '9');
 }
 
 bool parse_one(std::string input_string, int pos) {
@@ -161,9 +158,6 @@ int parse_string_from_pos(std::string input_string, int pos) {
 }
 
 void get_first_and_last_numbers(std::string input_string, int &first_number, int &last_number) {
-    first_number = -1;
-    last_number = -1;
-
     int i=0;
 
     // get the first number
