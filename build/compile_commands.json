@@ -1,0 +1,7 @@
+[
+{
+  "directory": "/home/Brian/projects/AOC23/text-summer/build",
+  "command": "/usr/bin/c++   -g -o CMakeFiles/text-summer.dir/main.cpp.o -c /home/Brian/projects/AOC23/text-summer/main.cpp",
+  "file": "/home/Brian/projects/AOC23/text-summer/main.cpp"
+}
+]

@@ -1,0 +1,7 @@
+/home/Brian/projects/AOC23/text-summer/build/CMakeFiles/text-summer.dir
+/home/Brian/projects/AOC23/text-summer/build/CMakeFiles/edit_cache.dir
+/home/Brian/projects/AOC23/text-summer/build/CMakeFiles/rebuild_cache.dir
+/home/Brian/projects/AOC23/text-summer/build/CMakeFiles/list_install_components.dir
+/home/Brian/projects/AOC23/text-summer/build/CMakeFiles/install.dir
+/home/Brian/projects/AOC23/text-summer/build/CMakeFiles/install/local.dir
+/home/Brian/projects/AOC23/text-summer/build/CMakeFiles/install/strip.dir
